@@ -28,17 +28,20 @@
 }
 
 /* Consulta de medios para dispositivos móviles */
-@media (max-width: 768px) {
+@media (max-width: 410px) {
   .containerTxt {
-    font-size: 50px; /* Ajusta el tamaño del texto para móviles */
+    font-size: 50px; 
     left: 50%;
     transform: translateX(-50%);
+    width: 90%;
   }
 
   .containerTxtImg {
-    font-size: 50px; /* Ajusta el tamaño del texto para móviles */
+    font-size: 100px; 
     left: 50%;
     transform: translateX(-50%);
+    width: 90%;
+    font-size: 50px; 
   }
 }
 

@@ -40,6 +40,7 @@ function updateElementPosition(element, event) {
 }
 
 function startDrag(element, event) {
+  event.preventDefault();
   const updateFunction = (event) => updateElementPosition(element, event);
   const stopFunction = () => stopDrag({update: updateFunction, stop: stopFunction});
   document.addEventListener("mousemove", updateFunction);
@@ -49,6 +50,7 @@ function startDrag(element, event) {
 }
 
 function stopDrag(functions) {
+  event.preventDefault();
   previousTouch = undefined;
   document.removeEventListener("mousemove", functions.update);
   document.removeEventListener("touchmove", functions.update);
