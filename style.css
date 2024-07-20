@@ -29,6 +29,7 @@
 
 /* Consulta de medios para dispositivos móviles */
 @media (max-width: 430px) {
+  /*
   .containerTxt {
     font-size: 1.5rem; 
     left: 50%;
@@ -43,7 +44,7 @@
     width: 90%;
   }
 
-  /*
+  
   .made-with-love {
     position: fixed;
     left: 0;
