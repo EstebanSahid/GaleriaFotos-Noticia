@@ -41,7 +41,20 @@
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
-    font-size: 50px; 
+    font-size: 60px; 
+  }
+
+  .made-with-love {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 9999;
+    font-family: arial;
+    color: #023131;
+    font-weight: 600;
   }
 }
 
