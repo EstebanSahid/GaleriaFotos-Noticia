@@ -42,7 +42,8 @@
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
-  }
+  } 
+  */
 
   
   .made-with-love {
@@ -57,7 +58,6 @@
     color: #023131;
     font-weight: 600;
   }
-  */
 }
 
 .Picture {
