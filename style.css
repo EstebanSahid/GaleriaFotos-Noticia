@@ -5,6 +5,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  font-size: 20px; 
 }
 
 .containerTxt {
@@ -14,12 +15,31 @@
   align-items: center;
   height: 100vh;
   left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  font-size: 15px; 
 }
+
 
 .containerTxtImg {
   display: flex;
   margin-top: -75px;
   margin-left: -60px;
+}
+
+/* Consulta de medios para dispositivos móviles */
+@media (max-width: 768px) {
+  .containerTxt {
+    font-size: 50px; /* Ajusta el tamaño del texto para móviles */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .containerTxtImg {
+    font-size: 50px; /* Ajusta el tamaño del texto para móviles */
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 .Picture {
